@@ -1,0 +1,41 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "commonjs",
+  "engines": {
+    "npm": "6.x",
+    "platform": "linux",
+    "node": "18.14.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon",
+    "seed": "node seeders/seed.js",
+    "format": "prettier --write \"**/*.{js,jsx}\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pinecone-database/pinecone": "^0.1.5",
+    "apollo-server-express": "^3.6.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "d3-dsv": "^2.0.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.2",
+    "graphql": "^16.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "langchain": "^0.0.75",
+    "mongoose": "^7.0.2",
+    "pdf-parse": "^1.1.1",
+    "stripe": "^8.191.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "prettier": "^2.7.1"
+  }
+}
