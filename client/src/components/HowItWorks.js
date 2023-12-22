@@ -34,8 +34,8 @@ const HowItWorks = () => {
               </p>
               <a
                 href="https://tanvirkhon-xcel-editor-app-gih7s1.streamlit.app/
-"
-                target="_blank">
+"rel="noreferrer"
+                target="_blank" > 
                 <button type="button" className="tryNowButton">
                   Try Now
                 </button>

@@ -50,7 +50,7 @@ export default function CheckoutForm() {
           padding: '20px',
           margin: '20px 0',
           boxShadow: '0 30px 50px -20px rgba(50, 50, 93, 0.25), 0 30px 60px -30px rgba(0, 0, 0, 0.3)',
-          margin: '20px auto', // Center the form horizontally
+           // Center the form horizontally
         maxWidth: '400px', // Adjust the maximum width as needed
         }}
       >

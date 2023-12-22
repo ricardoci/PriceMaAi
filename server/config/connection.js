@@ -1,7 +1,7 @@
 
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://Bright_Verdant:752105%23Rr@cluster-0.gohngx7.mongodb.net/?retryWrites=true&w=majority');
+mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://rubybanuelos197:FdjQUFpExjCP5Fln@timestudy.jstfql5.mongodb.net/?retryWrites=true&w=majority');
 
 
 
