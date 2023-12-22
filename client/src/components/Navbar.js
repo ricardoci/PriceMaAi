@@ -36,10 +36,10 @@ const Navbar = () => {
             {isLoggedIn ? (
               // Render Logout button if the user is logged in
               <>
-                <Link className="text-black bg-white hoverButtons focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-3xl text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 " to="/me">
+                <Link className="text-black bg-white hoverButtons    font-medium rounded-3xl text-sm px-3 py-2 text-center  md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 " to="/me">
                   {AuthService.getProfile().data.username}'s Profile
                 </Link>
-                <button type="button" onClick={handleLogout} className="text-black bg-white hoverButtons focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-3xl text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 ">Logout</button>
+                <button type="button" onClick={handleLogout} className="text-black bg-white hoverButtons    font-medium rounded-3xl text-sm px-3 py-2 text-center  md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 ">Logout</button>
               </>
 
 
