@@ -36,10 +36,10 @@ const Navbar = () => {
             {isLoggedIn ? (
               // Render Logout button if the user is logged in
               <>
-                <Link className="btn btn-lg btn-info m-2 hoverButtons font-medium rounded-3xl" to="/me">
+                <Link className="text-black bg-white hoverButtons focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-3xl text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 " to="/me">
                   {AuthService.getProfile().data.username}'s Profile
                 </Link>
-                <button type="button" onClick={handleLogout} className="text-black bg-white hoverButtons focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-3xl text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Logout</button>
+                <button type="button" onClick={handleLogout} className="text-black bg-white hoverButtons focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-3xl text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 ">Logout</button>
               </>
 
 
@@ -50,7 +50,7 @@ const Navbar = () => {
                   <button type="button" className="spacingButton text-black bg-white hoverButtons focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-3xl text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Sign In</button>
                 </Link>
                 <Link to="/Signup">
-                  <button type="button" className="text-white bg-black hoverButtons focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-3xl text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Signup</button>
+                  <button type="button" className="text-white bg-black hoverButtons focus:ring-4 focus:outline-none font-medium rounded-3xl text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Signup</button>
                 </Link>
               </>
             )}
