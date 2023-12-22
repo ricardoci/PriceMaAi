@@ -37,7 +37,7 @@ function Aichat() {
       },
       body: JSON.stringify({
         message: messages,
-        currentModel,
+        
       }),
     });
 
