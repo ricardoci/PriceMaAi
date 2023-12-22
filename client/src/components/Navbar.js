@@ -1,6 +1,6 @@
 import React from "react";
 import LogoOnly from "../assets/LogoOnly.svg";
-import { Link, useHistory } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import AuthService from '../utils/auth'; // Update the path to AuthService
 
 const Navbar = () => {
